@@ -1,0 +1,17 @@
+@import '../base/listas';
+@import '../base/variables';
+
+.section-container{
+    color: nth($list: $colores, $n:6 );
+    background-color: nth($list: $colores, $n:5 );
+    padding: nth($list: $size , $n:3 ) 0;
+    display: flex;
+    justify-content: center;
+
+    .section{
+        width: $w-60;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+}
