@@ -1,0 +1,13 @@
+/*.cuadro {
+    width: 120px;
+    height: 120px;
+    margin: 50px auto;
+    background-color: chartreuse;
+}*/
+
+@mixin cuadro($width, $height, $margin, $bc) {
+    width: $width;
+    height: $height;
+    margin: $margin;
+    background-color: $bc;
+}
