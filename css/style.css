@@ -1,18 +1,8 @@
-@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
 }
 
-.header-container {
-  color: white;
-  background-color: blue;
-  padding: 20px 0;
-  /* habilita el modo de diseño de flexbox / el navegador ignora las propiedades de flexbox si no la agregamos*/
-  display: flex;
-  /*alineacion horizontal */
-  justify-content: center;
-}
 .header-container .header {
   width: 60%;
   display: flex;
@@ -45,6 +35,15 @@
   justify-content: center;
   /* Flex-wrap*/
   flex-wrap: wrap;
+}
+
+/*placeholder = % + nombre {}*/
+.header-container {
+  color: white;
+  background-color: blue;
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
 }
 
 /*# sourceMappingURL=style.css.map */
