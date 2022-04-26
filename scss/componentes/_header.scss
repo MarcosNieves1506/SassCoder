@@ -4,14 +4,7 @@
 }
 
     .header-container{
-    color: #ffff;
-    background-color: blue;
-    padding: 20px 0;
-    /* habilita el modo de diseño de flexbox / el navegador ignora las propiedades de flexbox si no la agregamos*/
-    display: flex;
-
-    /*alineacion horizontal */
-    justify-content: center;
+    @extend  %header;
         .header{
             width: 60%;
     display: flex;
